@@ -5,7 +5,7 @@
 }
 /* Adding font selected to body */
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 header {
     color: white;
@@ -85,4 +85,60 @@ header {
     padding-top: 35px;
     font-size: 30px;
     font-weight: lighter;
+}
+
+.education {
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+.edu {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.whr {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.saps {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 7px;
+}
+.edutext {
+    padding-top: 20px;
+}
+
+.bbss {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.edutext2 {
+    padding-top: 60px;
+}
+
+.np {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 350px;
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.edutext3 {
+    padding-top: 60px;
 }
