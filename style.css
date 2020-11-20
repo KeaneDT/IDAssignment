@@ -142,3 +142,63 @@ header {
 .edutext3 {
     padding-top: 60px;
 }
+
+.exp {
+    height: 250px;
+    background-color: white;
+    color: black;
+}
+
+.work {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.whr2 {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.ntuc {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 7px;
+}
+.exptext {
+    padding-top: 30px;
+}
+
+.skillbox {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.sl {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.skilltxt {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 7px;
+    font-size: 27px;
+}
+.langtxt {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 27px;
+    font-size: 27px;
+}
