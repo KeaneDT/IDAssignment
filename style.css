@@ -13,11 +13,16 @@ header {
     background-color: black;
     height: 50px;
 }
+
+
 /* Making container1 a flexbox */
 .container1 {
     display: flex;
     flex-direction: row;
+    height: 500px;
 }
+
+
 /* Customizing intro1 flexbox to make it aesthetic */
 .intro1 {
     background-color: white;
@@ -25,26 +30,59 @@ header {
     /* Making intro1 flexbox thinner than intro2 */
     flex: 1;
 }
-/* Customizing intro2 flexbox to make it aesthetic */
-.intro2 {
-    background-color: black;
-    color: white;
-    flex: 3;
-    height: 400px;
-}
-.intro2text {
-    padding-left: 100px;
-    padding-top: 100px;
-    font-size: xx-large;
-}
 .intro1text {
-    padding-top: 25px;
+    padding-top: 55px;
     padding-left: 8px;
     text-align: center;
 }
 .introimage {
     margin-left: 78px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 170px;
     height: 170px;
+}
+
+
+/* Customizing intro2 flexbox to make it aesthetic */
+.intro2 {
+    background-color: black;
+    color: white;
+    flex: 3;
+}
+.intro2text {
+    padding-left: 100px;
+    padding-top: 300px;
+    font-size: xx-large;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.about2 {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.bgd {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+.abouttext {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: lighter;
 }
