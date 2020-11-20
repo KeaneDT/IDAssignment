@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Adding font selected to body */
+/* css code for header & body */
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,21 +13,19 @@ header {
     background-color: black;
     height: 50px;
 }
-
-
-/* Making container1 a flexbox */
+/*#################################################*/
+/*#################################################*/
+/*Container 1 CSS */
 .container1 {
     display: flex;
     flex-direction: row;
     height: 500px;
 }
-
-
+/*#################################################*/
 /* Customizing intro1 flexbox to make it aesthetic */
 .intro1 {
     background-color: white;
     color: black;
-    /* Making intro1 flexbox thinner than intro2 */
     flex: 1;
 }
 .intro1text {
@@ -41,8 +39,7 @@ header {
     width: 170px;
     height: 170px;
 }
-
-
+/*#################################################*/
 /* Customizing intro2 flexbox to make it aesthetic */
 .intro2 {
     background-color: black;
@@ -54,13 +51,15 @@ header {
     padding-top: 300px;
     font-size: xx-large;
 }
-
-
+/*#################################################*/
+/*#################################################*/
+/* Container 2 CSS */
 .container2 {
     display: flex;
     flex-direction: column;
 }
-
+/*#################################################*/
+/* About Flexbox */
 .about {
     background-color: black;
     color: white;
@@ -86,7 +85,8 @@ header {
     font-size: 30px;
     font-weight: lighter;
 }
-
+/*#################################################*/
+/* Education Flexbox */
 .education {
     height: 500px;
     background-color: white;
@@ -106,7 +106,7 @@ header {
     padding-bottom: 10px;
     font-size: 20px;
 }
-
+/*#################################################*/
 .saps {
     width: 100px;
     height: 100px;
@@ -118,7 +118,7 @@ header {
 .edutext {
     padding-top: 20px;
 }
-
+/*#################################################*/
 .bbss {
     width: 100px;
     height: 100px;
@@ -130,7 +130,7 @@ header {
 .edutext2 {
     padding-top: 60px;
 }
-
+/*#################################################*/
 .np {
     width: 100px;
     height: 100px;
@@ -142,7 +142,7 @@ header {
 .edutext3 {
     padding-top: 60px;
 }
-
+/*#################################################*/
 .exp {
     height: 250px;
     background-color: white;
@@ -163,6 +163,7 @@ header {
     padding-bottom: 10px;
     font-size: 20px;
 }
+/*#################################################*/
 .ntuc {
     width: 100px;
     height: 100px;
@@ -174,13 +175,13 @@ header {
 .exptext {
     padding-top: 30px;
 }
-
+/*#################################################*/
+/* Skill & Laguages Flexbox */
 .skillbox {
     background-color: black;
     color: white;
     height: 500px;
 }
-
 .sl {
     padding-right: 150px;
     padding-left: 150px;
@@ -189,7 +190,6 @@ header {
     font-weight: bold;
     font-size: 40px;
 }
-
 .skilltxt {
     padding-right: 150px;
     padding-left: 150px;
@@ -202,3 +202,4 @@ header {
     padding-top: 27px;
     font-size: 27px;
 }
+/*#################################################*/
