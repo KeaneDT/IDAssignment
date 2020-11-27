@@ -243,8 +243,20 @@ header {
     padding-top: 7px;
     font-size: 27px;
 }
+.projectbuttonouter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 
-
+}
+.projectbutton {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: 3px solid black;
+}
 /*#################################################*/
 /* About Page */
 /*#################################################*/
@@ -273,9 +285,109 @@ header {
 .abouttohomeouter {
     padding-top: 50px;
     text-align: center;
+    padding-bottom: 50px;
 
 }
 .abouttohome {
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-weight: bolder;
+    padding: 15px 20px;
+    border: 3px solid black;
+}
+/*#################################################*/
+/* Project Page */
+/*#################################################*/
+.container4 {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-color:white;
+    color: black;
+}
+/*#################################################*/
+.projecttitle {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+/*#################################################*/
+.tttitle {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ttcontent {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 35px;
+    font-size: 23px;
+    text-align: center;
+}
+.ttlink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 550px;
+}
+/*#################################################*/
+.ikeatitle {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.ikeacontent {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 35px;
+    font-size: 23px;
+    text-align: center;
+}
+.ikealink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 550px;
+}
+/*#################################################*/
+.obsctitle {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.obsccontent {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 35px;
+    font-size: 23px;
+    text-align: center;
+}
+.obsclink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-left: 550px;
+}
+/*#################################################*/
+.projecttohomeouter {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.projecttohome {
     text-decoration: none;
     color: white;
     background-color:black;
