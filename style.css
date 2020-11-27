@@ -12,20 +12,27 @@ body {
 }
 header {
     color: white;
-    padding-top: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background-color: black;
-    height: 50px;
+    height: 2%;
+    font-weight: bolder;
+    font-family: 'Courgette', cursive;
+
 }
-/*#################################################*/
-/*#################################################*/
-/*Container 1 CSS */
+.bhighlight {
+    background-color: black;
+    color: white;
+}
+.whighlight {
+    background-color:white;
+    color:black;
+}
 .container1 {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    height: 500px;
 }
-/*#################################################*/
-/* Customizing intro1 flexbox to make it aesthetic */
 .intro1 {
     background-color: white;
     color: black;
@@ -34,14 +41,17 @@ header {
 .intro1text {
     padding-top: 55px;
     text-align: center;
+    line-height: 2;
+    font-weight: bold;
 }
 .introimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 20%;
     width: 170px;
     height: 170px;
+    border: 5px solid black;
 }
 /*#################################################*/
 /* Customizing intro2 flexbox to make it aesthetic */
@@ -53,10 +63,10 @@ header {
 .intro2text {
     padding-left: 100px;
     padding-top: 300px;
+    padding-bottom: 8%;
     font-size: xx-large;
+    font-family: 'Exo', sans-serif;
 }
-/*#################################################*/
-/*#################################################*/
 /* Container 2 CSS */
 .container2 {
     display: flex;
@@ -67,25 +77,27 @@ header {
 .aboutindex {
     background-color: black;
     color: white;
-    height: 500px;
+    height: 400%;
 }
 .about2 {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
 }
 .bgd {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 7px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
     font-size: 20px;
 }
 .abouttext {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 35px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 30px;
     font-weight: lighter;
     text-align: center;
@@ -93,7 +105,7 @@ header {
 .aboutbuttonouter {
     padding-top: 50px;
     text-align: center;
-
+    padding-bottom: 4%;
 }
 .aboutbutton {
     text-decoration: none;
@@ -106,141 +118,136 @@ header {
 /*#################################################*/
 /* Education Flexbox */
 .education {
-    height: 500px;
     background-color: white;
     color: black;
 }
 .edu {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 40px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
     font-weight: bold;
     font-size: 40px;
 }
 .whr {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 7px;
-    padding-bottom: 10px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
     font-size: 20px;
 }
 /*#################################################*/
 .saps {
-    width: 100px;
-    height: 100px;
     float: left;
-    padding-left: 150px;
-    padding-right: 100px;
-    padding-top: 7px;
+    padding-left: 9%;
+    padding-right: 1%;
 }
 .edutext {
-    padding-top: 20px;
+    padding-top: 1%;
+    padding-bottom: 7%;
 }
 /*#################################################*/
 .bbss {
-    width: 100px;
-    height: 100px;
     float: left;
-    padding-left: 0px;
-    padding-right: 100px;
-    padding-top: 40px;
+    padding-left: 9%;
+    padding-right: 1%;
 }
 .edutext2 {
-    padding-top: 60px;
+    padding-top: 1%;
+    padding-bottom: 7%;
 }
 /*#################################################*/
 .np {
-    width: 100px;
-    height: 100px;
     float: left;
-    padding-left: 350px;
-    padding-right: 100px;
-    padding-top: 40px;
+    padding-left: 9%;
+    padding-right: 1%;
 }
 .edutext3 {
-    padding-top: 60px;
+    padding-top: 1%;
+    padding-bottom: 7%;
 }
 /*#################################################*/
 /* Work Experience */
 .exp {
-    height: 250px;
     background-color: white;
     color: black;
 }
-
 .work {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 40px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bold;
     font-size: 40px;
 }
 .whr2 {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 7px;
-    padding-bottom: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2%;
     font-size: 20px;
 }
 /*#################################################*/
 .ntuc {
-    width: 100px;
-    height: 100px;
     float: left;
-    padding-left: 150px;
-    padding-right: 100px;
-    padding-top: 7px;
+    padding-left: 9%;
+    padding-right: 1%;
+    padding-bottom: 10%;
 }
 .exptext {
-    padding-top: 30px;
+    padding-top: 2%;
+    padding-bottom: 7%;
 }
 /*#################################################*/
 /* Skill & Laguages Flexbox */
 .skillbox {
     background-color: black;
     color: white;
-    height: 500px;
+    margin-top: 5%;
 }
 .sl {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
     font-weight: bold;
     font-size: 40px;
 }
 .skilltxt {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 7px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
     font-size: 27px;
 }
 .langtxt {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 27px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 27px;
+    padding-bottom: 5%;
 }
 /*#################################################*/
 /* Projects Flexbox */
 .projects {
-    height: 400px;
     background-color: white;
     color: black;
 }
 .projecthead {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-weight: bold;
     font-size: 40px;
 }
 .protxt {
-    margin-bottom: 10px;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 7px;
+    margin-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 27px;
 }
 .projectbuttonouter {
@@ -258,27 +265,51 @@ header {
     border: 3px solid black;
 }
 /*#################################################*/
+/* Contact Flexbox */
+.contact {
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+}
+.contacthead {
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.contactinfo {
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    font-size: 27px;
+}
+/*#################################################*/
 /* About Page */
 /*#################################################*/
 .container3 {
     display: flex;
     flex-direction: column;
-    height: 500px;
     background-color: white;
     color: black;
 }
 /*#################################################*/
 .about {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bolder;
     font-size: 40px;
 }
 .aboutpagetext {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 35px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
     font-size: 23px;
     text-align: center;
 }
@@ -302,30 +333,32 @@ header {
 .container4 {
     display: flex;
     flex-direction: column;
-    height: 700px;
     background-color:white;
     color: black;
 }
 /*#################################################*/
 .projecttitle {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bolder;
     font-size: 40px;
+    padding-bottom: 4%;
 }
 /*#################################################*/
 .tttitle {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bold;
     font-size: 35px;
 }
 .ttcontent {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 35px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 23px;
     text-align: center;
 }
@@ -333,21 +366,22 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    padding-top: 2%;
     padding-left: 550px;
 }
 /*#################################################*/
 .ikeatitle {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bold;
     font-size: 35px;
 }
 .ikeacontent {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 35px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 23px;
     text-align: center;
 }
@@ -355,21 +389,22 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    padding-top: 2%;
     padding-left: 550px;
 }
 /*#################################################*/
 .obsctitle {
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
+    font-family: 'Exo', sans-serif;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-weight: bold;
     font-size: 35px;
 }
 .obsccontent {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 35px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 2%;
     font-size: 23px;
     text-align: center;
 }
@@ -377,7 +412,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    padding-top: 2%;
     padding-left: 550px;
 }
 /*#################################################*/
@@ -394,4 +429,95 @@ header {
     font-weight: bolder;
     padding: 15px 20px;
     border: 3px solid black;
+}
+@media only screen and (min-width: 1024px) {
+    .ttlink2 {
+        display: none;
+    }
+    .ikealink2 {
+        display: none;
+    }
+    .obsclink2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .introimage {
+        display: none;
+    }
+    .intro1 {
+        padding-bottom: 40px;
+    }
+    .intro2 {
+        display: none;
+    }
+    .about {
+        text-align: center;
+    }
+    .abouttext {
+        font-size: 20px;
+    }
+    .aboutbuttonouter {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .exptext {
+        margin-bottom: 15%;
+    }
+    .projecttitle {
+        text-align: center;
+    }
+    .tttitle {
+        text-align: center;
+    }
+    .ikeatitle {
+        text-align: center;
+    }
+    .obsctitle {
+        text-align: center;
+    }
+    .ttlink {
+        display: none;
+    }
+    .ikealink {
+        display: none;
+    }
+    .obsclink {
+        display: none;
+    }
+    .ttlink2 {
+        margin-top: 3%;
+        text-align: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        font-weight: bolder;
+        padding: 15px 20px;
+        border: 3px solid black;
+    }
+    .ikealink2 {
+        margin-top: 3%;
+        text-align: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        font-weight: bolder;
+        padding: 15px 20px;
+        border: 3px solid black;
+    }
+    .obsclink2 {
+        margin-top: 3%;
+        text-align: center;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        font-weight: bolder;
+        padding: 15px 20px;
+        border: 3px solid black;
+        margin-bottom: 5%;
+    }
+
 }
